@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="5dp"
+        android:paddingTop="3dp"
+        android:lines="1"
+        android:id="@+id/description_title_tv"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This example is to demonstrate the Linear Layout (Vertical Orentation) with the usage of Weight."
+        android:lines="2"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:paddingTop="3dp"
+        android:id="@+id/description_tv"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/red_text_view"
+        android:layout_weight="1"
+        android:text="RED Color"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:background="#ff0000"
+        android:onClick="red_tv_clicked"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#2af102"
+        android:text="GREEN Color"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/green_text_view"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="green_tv_clicked"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/blue_text_view"
+        android:layout_weight="1"
+        android:background="#0b2c99"
+        android:text="BLUE Color"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="blue_tv_clicked"
+        android:fontFamily="sans-serif-condensed"
+        />
+
+
+
+
+
+
+</LinearLayout>
